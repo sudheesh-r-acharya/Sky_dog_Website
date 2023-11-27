@@ -140,11 +140,12 @@ html , body {
     #headname h1{
         color: #AAA;
         font-family: NORTHDEN ROUGH;
-        font-size: 116px;
+        font-size: 80px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        margin-left: 2px;
+        margin-left: 25px;
+        /* top: 100px; */
         /* background-color: aqua; */
     }
     .section-1 p{
@@ -155,7 +156,7 @@ html , body {
     padding-top: 25px; */
     text-align: center;
     position: absolute;
-    left: 120px;
+    left: 60px;
     top: 640px;
     font-family: Gotham;
     font-size: 25px;
@@ -200,7 +201,7 @@ bottom: 0;
     width: 500px;
     height: 500px;
     flex-shrink: 0;
-    /* margin-left: 100px; */
+    margin-left: -30px;
     border-radius: 5px;
 }
 .section-2 img:hover{
@@ -215,7 +216,7 @@ font-size: 94px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 20px;
+margin-left: 10px;
 }
 .S-2content p{
     color: #AAA;
@@ -224,7 +225,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 150% */
-margin-left: 20px;
+margin-left: 10px;
 margin-top: 20px;
 width: 668px;
 }
@@ -259,7 +260,7 @@ margin: 30px 20px;
     /* background-color: rgb(120, 120, 120); */
     position: relative;
     top: 30vh;
-    left: 100px;
+    left: 55px;
     overflow: hidden;
 }
 .section-3 .headers{
@@ -395,13 +396,13 @@ margin: 30px 20px;
     height: 1530px;
     flex-shrink: 0;
     position: relative;
-    top: 500px;
+    top: 400px;
     /* overflow-x: hidden; */
 }
 .First-content{
     /* background-color: aqua; */
     position: absolute;
-    left: 100px;
+    left: 50px;
 }
 
 .First-content h1{
@@ -440,12 +441,12 @@ padding: 13px 20px;
   box-shadow: 5px 5px 0 #fff;
 }
 .First-content img{
-    width: 800px;
-    height: 1001.98px;
+    width: 750px;
+    height: 1000px;
     flex-shrink: 0;
     position: absolute;
     top: -30%;
-    left: 85%;
+    left: 75%;
 }
 .Second-content{
     /* background-color: aquamarine; */
@@ -556,7 +557,8 @@ padding: 13px 20px;
     height: 342px;
     flex-shrink: 0;
     position: absolute;
-    left: 120px;
+    left: 55px;
+    top: 60px;
     /* background-color: aqua ; */
     border: 2px solid white;
     border-radius: 5px;
@@ -671,7 +673,7 @@ padding: 13px 20px;
   
   .viewport_footer {
     position: relative;
-    top: 55%;
+    top: 70%;
     width: 100%;
   }
   .inner_footer {

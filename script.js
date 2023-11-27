@@ -100,7 +100,9 @@ function horizontalLoop(items, config) {
         stagger:1,
         scrollTrigger:{
             trigger: ".S-2content",
-            start: "top 65%"
+            start: "top 65%",
+            end:"top 75%",
+            // markers: "true"
         }
 
     })
